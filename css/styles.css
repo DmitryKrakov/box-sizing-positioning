@@ -1,0 +1,11 @@
+.box {
+    background-color: beige;
+    border: 3px solid lightgray;
+}
+.text {
+    /* trbl top right bottom left */
+    padding: 0;
+    margin: 20px;
+    border: 3px solid red;
+    padding: 5px;
+    }
