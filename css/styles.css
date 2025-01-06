@@ -13,31 +13,32 @@
     position: absolute; 
     border-radius: 50px;
     background-color: white;
+    border: 2px;
     
 }
 .box-one {
-    border: 2px black solid;
+    border: black solid;
     top: 50px;
     left: 60px;
   
     
 }
 .box-two {
-    border: 2px blue solid;
+    border: blue solid;
     left: 120px;
     z-index: -1;
     
 }
 .box-three {
-border: 2px green solid ;
+border: green solid ;
 z-index: -1;
 }
 .box-four {
-    border: 2px rgb(244, 166, 23) solid;
+    border: rgb(244, 166, 23) solid;
     left: 240px;
 }
 .box-five {
-    border: 2px rgb(213, 174, 48) solid;
+    border: rgb(213, 174, 48) solid;
     top:50px;
     left: 180px;
 }
