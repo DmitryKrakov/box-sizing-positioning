@@ -1,19 +1,22 @@
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100vh;
 
+.chess > div > div {
+    width: 50px;
+    height: 50px;
+    border: solid 1px;
+    background-color: bisque;
 }
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: gold;
-    border: 3px solid gray;
-    margin-top: 30px;
+
+.chess >div {
+    display: flex;
 }
-.container div:nth-child(odd) {
-    align-self: flex-start;
+
+.chess > :nth-child(odd) {
+    width: 500px;
+}
+
+.chess > :nth-child(odd) > :nth-child(odd) {
     background-color: black;
+}
+.chess > :nth-child(even) > :nth-child(even) {
+background-color: black;
 }
