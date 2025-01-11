@@ -1,44 +1,19 @@
-.boxes {
-    border: 100px;
-    position: relative;
-    width: 500px;
-    height: 500px;
-  
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
 
-    
 }
 .box {
     width: 100px;
     height: 100px;
-    position: absolute; 
-    border-radius: 50px;
-    background-color: white;
-    border: 2px;
-    
+    background-color: gold;
+    border: 3px solid gray;
+    margin-top: 30px;
 }
-.box-one {
-    border: black solid;
-    top: 50px;
-    left: 60px;
-  
-    
-}
-.box-two {
-    border: blue solid;
-    left: 120px;
-    z-index: -1;
-    
-}
-.box-three {
-border: green solid ;
-z-index: -1;
-}
-.box-four {
-    border: rgb(244, 166, 23) solid;
-    left: 240px;
-}
-.box-five {
-    border: rgb(213, 174, 48) solid;
-    top:50px;
-    left: 180px;
+.container div:nth-child(odd) {
+    align-self: flex-start;
+    background-color: black;
 }
