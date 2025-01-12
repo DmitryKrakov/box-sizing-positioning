@@ -9,4 +9,10 @@ html {
     width: 16em;
     height: 16em;
     box-sizing: border-box;
+    /* *************  */
+   /* overflow part is hidden */
+    overflow: hidden;
+    /* ************* */
+    /* scrolling if there is overflow */
+    overflow: auto;
 }
