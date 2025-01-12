@@ -1,22 +1,26 @@
-
-.chess > div > div {
-    width: 50px;
-    height: 50px;
-    border: solid 1px;
-    background-color: bisque;
-}
-
-.chess >div {
+body {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.chess > :nth-child(odd) {
-    width: 500px;
+.cell {
+    width: 70px;
+    height: 70px;
+    border: 1px solid lightgray ;
+    background-color: bisque;
+    box-sizing: border-box;
 }
-
-.chess > :nth-child(odd) > :nth-child(odd) {
+.chessBoard {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.chessBoard div:nth-child(odd)>div:nth-child(odd) {
     background-color: black;
 }
-.chess > :nth-child(even) > :nth-child(even) {
-background-color: black;
+.chessBoard div:nth-child(even)>div:nth-child(even) {
+    background-color: black;
 }
