@@ -3,18 +3,20 @@ html {
 }
 .gallery--item {
     border: 4px solid lightgray;
+    display: inline-block;
     border-radius: 40px;
+    box-sizing: border-box;
     width: 20rem;
-
+    overflow: hidden;
 }
 .gallery--item_title {
-display: block;
+display: block; 
+margin: -3px; 
 font-size: 2rem;
 width: 20rem;
 background-color: blue;
 text-align: center;
-color: aliceblue;
-}
+color: aliceblue;}
 .gallery {
     list-style: none;
 }
